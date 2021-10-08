@@ -160,6 +160,10 @@ section.about p b{
     font-weight: 400;
 }
 
+section.about p b i{
+    color: var(--danger);
+}
+
 .right figure figcaption {
     align-content: center;
     margin-left: 130px;
@@ -202,3 +206,9 @@ footer p.center {
     text-align: center;
     padding-top: 10px;
 }
+
+.logo i {
+    color: var(--danger);
+}
+
+ 
