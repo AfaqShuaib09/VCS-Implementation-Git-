@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+
+:root {
+    --primary : #1a252f;
+    --dark : #151A33;
+    --secondary: #2b55cc;
+    --info : #4d79f6;
+    --ternary : #848db3;
+    --pure : #eff2f9;
+    --fade : #7881b9;
+    --mild : #8997bd;
+    --footer : #212A4A;
+    --black : #060b1b;
+    --twitter : #4ac7ec;
+    --dribble : #ff5da0;
+    --success : #1ecab8;
+    --danger : #f1646c;
+    --darkblue : #28365f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1;
+}
+
+header {
+    background-color: var(--dark);
+    height: 120px;
+}
+
+header .logobar .logo {
+    text-transform: uppercase;
+    color: var(--footer);
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+header .logobar .logo i {
+    font-size: 70px;
+    float: left;
+    color: var(--secondary);
+}
+
+header .logobar .logo h1{
+    font-family: 'Stylish', sans-serif;
+    color: var(--pure);
+    padding-top: 25px;
+}
+
+nav {
+    background-color: var(--primary);
+}
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+nav ul li a:hover {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+    background-color: var(--secondary);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 20px;
+  padding-right: 55px;    
+}
+
+nav ul.nav_icons li:nth-child(1) a {
+    margin-left: 60px;
+}
+
+section {
+    padding: 3rem;
+}
+
+main {
+    background-color: var(--black);
+}
+
+section.about .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18rem;
+}
+
+section.about .content p {
+    color: var(--ternary);
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    margin-top: 1rem;    
+}
+
+h1.section_heading {
+    color: white;
+    font-size: 27px;
+}
+
+section.about .content .left button {
+    background: rgba(77,121,246,0.1);
+    color: var(--info);
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    margin-top: 25px;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+}
+
+section.about .cd-headline.loading-bar .cd-words-wrapper::after {
+    background: linear-gradient(to right, var(--secondary),var(--success));
+}
