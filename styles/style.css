@@ -207,9 +207,13 @@ section.section1 .study_material .syntax {
     margin-bottom: 480px;
 }
 
-#third img {
-    text-align: center;
-} 
+#fourth {
+    margin-bottom: 120px;
+}
+
+#fifth {
+    margin-bottom: 130px;
+}
 
 section.section1 .study_material .syntax p {
     font-family: 'Source Code Pro', monospace;
