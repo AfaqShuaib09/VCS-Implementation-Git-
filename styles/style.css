@@ -218,3 +218,206 @@ footer p.center {
 }
 
  
+section.about_author .cd-headline.loading-bar .cd-words-wrapper::after {
+    background: linear-gradient(to right, var(--secondary),var(--success));
+}
+
+section.about_author #author {
+    text-align: center;
+}
+
+section.about_author p b{
+    text-align: center;
+    color: var(--info);
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.about_author p b i{
+    color: var(--success);
+    font-size: 16px;
+}
+
+section.about_author p {
+    margin-bottom: 35px;
+}
+
+section.about_author .content2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 30rem;
+}
+
+section.about_author .content2 h2 {
+    color: slateblue;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+section.about_author .content2 p {
+    text-align: justify;
+    color: var(--mild);
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+section.about_author .content2 .right ul.contact {
+    list-style-type: none;
+    margin-bottom: 1.6rem;
+} 
+
+section.about_author .content2 .right ul.contact li{
+    color: var(--ternary);
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+section.about_author .content2 .right ul.contact li i {
+    color: slateblue;
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+section.about_author .content2 .right ul.socials li {
+    margin-right: 0.8rem;
+}
+
+section.about_author .content2 .right ul.socials{
+    display: flex;
+    align-items: center;
+}
+
+section.about_author .content2 .right ul.socials {
+    list-style-type: none;
+} 
+
+section.about_author .content2 .right ul.socials li a {
+    display: inline-block;
+    width:36px;
+    height:36px;
+    line-height: 36px;
+    border-radius: 50px;
+    color:var(--pure);
+    text-align: center;
+}
+
+section.about_author .content2 .right ul.socials li:nth-child(1) a {
+    background: var(--secondary);
+}
+
+section.about_author .content2 .right ul.socials li:nth-child(2) a {
+    background: linear-gradient(#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737
+    ,#FCAF45, #FFDC80);;
+}
+
+section.about_author .content2 .right ul.socials li:nth-child(3) a {
+    background: #6e5494;
+}
+
+section.about_author .content2 .right ul.socials li:nth-child(4) a {
+    background: #25D366;
+    color: var(--black) !important;
+}
+
+section.about_author .content2 .right ul.socials li:nth-child(5) a {
+    background: var(--info);
+}
+
+section.about_contact .cd-headline.loading-bar .cd-words-wrapper::after {
+    background: linear-gradient(to right, var(--secondary),var(--success));
+}
+
+section.contact {
+    padding-top: -20px;
+}
+
+section.contact p b{
+    text-align: center;
+    color: var(--info);
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.contact p b i {
+    color: var(--success);
+    background: linear-gradient(var(--success));
+}
+
+section.contact .content {
+    margin-top: 35px;
+}
+
+section.contact .content .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-gap: 30px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+section.contact .content .left label{
+    color: var(--mild);
+    margin-left: 30px;
+    margin-left: 150px;
+}
+
+section.contact .content .left input{
+    color: var(--pure);
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 7px;
+    background-color: transparent;
+    border-color: var(--secondary);
+    outline: none;
+    width: 250px;
+    height: 35px;
+}
+
+section.contact .content .right {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+section.contact .content .right label {
+    color: var(--mild);
+    padding-top: -50px;
+}
+
+section.contact .content .right textarea {
+    padding-left: 10px;
+    font-size: 15px;
+    color: var(--pure);
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 15px;
+    background-color: transparent;
+    border-color: var(--secondary);
+    outline: none;
+    width: 138vh;
+    height: 200px;
+}
+
+section.contact .content .right button{
+    margin-left: 140vh;
+    color: var(--pure);
+    background: var(--secondary);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
