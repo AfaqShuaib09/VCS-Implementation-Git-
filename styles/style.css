@@ -212,7 +212,11 @@ section.section1 .study_material .syntax {
 }
 
 #fifth {
-    margin-bottom: 480px;
+    margin-bottom: 520px;
+}
+
+#sixth {
+    margin-bottom: 330px;
 }
 
 section.section1 .study_material .syntax p {
@@ -237,6 +241,10 @@ section.section1 .study_material figure {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 30px;
+}
+
+section.section1 .study_material figure p {
+    margin-bottom: 10px;
 }
 
 footer {
