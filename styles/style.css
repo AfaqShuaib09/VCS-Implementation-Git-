@@ -235,6 +235,10 @@ section.section1 .study_material .syntax {
     margin-bottom: 120px;
 }
 
+#eleventh {
+    margin-bottom: 100px;
+}
+
 section.section1 .study_material .syntax p {
     font-family: 'Source Code Pro', monospace;
 }
