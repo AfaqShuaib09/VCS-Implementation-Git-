@@ -236,9 +236,17 @@ section.section1 .study_material .syntax {
 }
 
 #eleventh {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
+
+#twelveth {
+    margin-bottom: 530px;
+}
+
+#twelveth h3 {
+    margin-bottom: 0px;
+}
 section.section1 .study_material .syntax p {
     font-family: 'Source Code Pro', monospace;
 }
