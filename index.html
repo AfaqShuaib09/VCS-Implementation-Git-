@@ -83,7 +83,7 @@
         </header>
         <nav>
             <ul class = "nav_icons">
-                <li><a href="#logo">Git Tutorials</a></li>
+                <li><a href="#about_section">Git Tutorials</a></li>
                 <li><a href="#author_section">About Author</a></li>
                 <li><a href="#contact_section">Contact</a></li>
             </ul>
@@ -280,11 +280,13 @@
                 <h2>Git Commit -</h2>
                 <h3>Command used to send the files from staging area to local Repo.</h3>
                 <p>
-                    The "commit" command is used to save your changes to the local repository. Using the "git commit" command only saves a new commit object in the local Git repository.This command basically used to send the files from staging area to local Repository.
+                    The "commit" command is used to save your changes to the local repository. Using the "git commit" command only saves a new commit object in the local Git repository.This command basically used to send the files from staging area to local Repository.<br> 
                 </p>
                 <div class=syntax>
                     <p>
                         $ git commit -m "message"
+                        <br>
+                        Changes made  with message to track changes
                     </p>
                 </div>
 
@@ -294,6 +296,28 @@
             </div>
         </section>
 
+        <section class="section1" id="tenth">
+            <div class="study_material">
+                <h2>Git Push -</h2>
+                <h3>Command used to push the changes to your online hosted Repository</h3>
+                <p>
+                    The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
+                    <br>
+                    <b>-u option</b> is used to switch the branch where you want to push your code
+                </p>
+                <div class=syntax>
+                    <p>
+                        $ git push // To push the code at branch where head Present
+                        <br/>
+                        $ git push -u origin branch_name // To push code at specfic branch
+                    </p>
+                </div>
+
+                <figure>
+                    <img src="images/img-12.PNG" alt="git commit">
+                </figure>
+            </div>
+        </section>
 
         <section class="about_author" id="author_section">
             <p class="cd-headline loading-bar" id="author">
