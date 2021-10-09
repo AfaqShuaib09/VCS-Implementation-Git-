@@ -249,8 +249,17 @@ section.section1 .study_material .syntax {
 }
 
 #thirteen {
-    margin-bottom: 970px;
+    margin-bottom: 1070px;
 }
+
+#forteenth{
+    margin-bottom: 280px;
+}
+
+#fifteeth {
+    margin-bottom: 1700px;
+}
+
 section.section1 .study_material .syntax p {
     font-family: 'Source Code Pro', monospace;
 }
