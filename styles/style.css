@@ -277,6 +277,26 @@ section.section1 .study_material .syntax {
     margin-bottom: 80px;
 }
 
+#nineteeth {
+    margin-bottom: 200px;
+}
+
+#twenty {
+    margin-bottom: 100px;
+}
+
+#yo h2 {
+    margin-bottom: 20px;
+    color: var(--info);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#yo p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    margin-left: 0;
+}
+
 section.section1 .study_material .syntax p {
     font-family: 'Source Code Pro', monospace;
 }
