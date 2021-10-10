@@ -261,7 +261,20 @@ section.section1 .study_material .syntax {
 }
 
 #sixteenth {
-    margin-bottom: 180px;
+    margin-bottom: 250px;
+}
+
+#seventeeth {
+    margin-bottom: 320px;
+}
+
+#seventeeth div.syntax ul{
+    list-style: none;
+
+}
+
+#eighteenth {
+    margin-bottom: 80px;
 }
 
 section.section1 .study_material .syntax p {
